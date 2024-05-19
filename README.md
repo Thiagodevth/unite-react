@@ -14,7 +14,6 @@ e para estilização usei o
 TAIWIND.CSS
 <br>
 Link do projeto 
-<img width="50" height="50" src="https://img.icons8.com/ios-filled/50/nui2.png" alt="nui2"/>
 <a href="https://unite-react.vercel.app/">Clique Aqui<a/>
 <br>
 <br>
