@@ -24,6 +24,7 @@ export function AttendeeList() {
     const [search, setSearch] = useState('')
     const [page, setPage] = useState(1)
 
+
     const totalPages = Math.ceil(attendees.length / 10)
 
     function onSearchInputChanged(event: ChangeEvent<HTMLInputElement>) {
@@ -45,8 +46,6 @@ export function AttendeeList() {
     function goToNextPage() {
         setPage(page + 1)
     }
-
-
 
     return (
         <div className="flex flex-col gap-4">
@@ -96,7 +95,7 @@ export function AttendeeList() {
                                         </span>
                                         <span>
                                             {attendee.email}
-                                            </span>
+                                        </span>
                                     </div>
                                 </TableCell>
                                 <TableCell>{dayjs().to(attendee.createdAt)}</TableCell>
@@ -113,7 +112,7 @@ export function AttendeeList() {
                 <tfoot>
                     <tr>
                         <TableCell colSpan={3}>
-                            Mostrando 10 de {attendees.length} itens
+                            Mostrando 10 de {attendees.length} de itens
                         </TableCell>
                         <TableCell className="text-right" colSpan={3}>
                             <div className="inline-flex items-center gap-8">
