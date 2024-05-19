@@ -1,1 +1,19 @@
-![image](https://github.com/Thiagodevth/unite-react/assets/139066077/493f0d0a-4fe8-4aba-bf51-72a7512be359)
+# Projeto - PASS-IN-WEB
+
+Projeto tela de participantes, simula uma tela de eventos onde temos acesso aos participantes do evento, apenas quem esta gerenciando o evento tem acesso a esta tela. 
+neste projeto usei uma api que gera estes participantes com id unico, onde uma vez que o participante fez sua inscrição e não consegue se reinscrever com o mesmo email, esta api gera o id, nome, email, data da inscrição, hora da inscriçao, e as seguintes tecnologias foram
+<br>
+VITE
+<br>
+REACT
+<br>
+TYPE SCRIPT
+<br>
+e para estilização usei o 
+<br>
+TAIWIND.CSS
+<br>
+<br>
+<img src="./src/assets/IMG.png">
+
+
