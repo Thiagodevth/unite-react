@@ -13,6 +13,7 @@ e para estilização usei o
 <br>
 TAIWIND.CSS
 <br>
+<button>
 <br>
 <img src="./src/assets/IMG.png">
 
